@@ -92,7 +92,7 @@ function(opendaq_complete_boost_dependency)
         "Boost version required for openDAQ"
     )
 
-    set(OPENDAQ_BOOST_DOWNLOAD_URL "https://github.com/boostorg/boost/releases/download/boost-1.92.0/boost-1.92.0.tar.xz"
+    set(OPENDAQ_BOOST_DOWNLOAD_URL "https://github.com/boostorg/boost/releases/download/boost-1.92.0/boost-1.92.0-cmake.tar.xz"
         CACHE STRING
         "Boost archive download URL"
     )
